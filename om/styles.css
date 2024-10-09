@@ -1,0 +1,411 @@
+
+.bod {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#registerMessage, #loginMessage {
+    color: red;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('/Hospital-Management-System.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero .cta-button {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.hero .cta-button:hover {
+    background: #218838;
+}
+
+.services, .about, .doctors, .testimonials, .contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services {
+    background: #e9ecef;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 40px);
+}
+
+.about {
+    background: #ffffff;
+}
+
+.doctors {
+    background: #f8f9fa;
+}
+
+.doctor-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.doctor {
+    margin: 20px;
+    text-align: center;
+}
+
+.doctor img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.testimonials {
+    background: #ffffff;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial {
+    margin: 20px;
+    padding: 20px;
+    background: #f1f1f1;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+    max-width: 600px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #007bff;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .service-container, .doctor-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service, .doctor {
+        width: 90%;
+    }
+
+    .cta-button {
+        padding: 15px 30px;
+    }
+}
+
+/* Doctors Page css*/
+.doctors {
+    padding: 40px 20px;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+.doctor-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.doctor {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(30% - 40px);
+    text-align: center;
+}
+
+.doctor img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .doctor {
+        width: 90%;
+    }
+}
+/*about css*/
+.about-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #666;
+}
+
+/*contact css*/
+.contact-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.contact-info {
+    margin: 20px 0;
+}
+
+.contact-info h3 {
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #666;
+}
+
+.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form h3 {
+    color: #333;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
